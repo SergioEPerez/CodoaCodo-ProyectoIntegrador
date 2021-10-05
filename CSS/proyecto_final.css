@@ -1,0 +1,86 @@
+.navbarsup{
+text-align: right;
+}
+
+.nav_ultimo{
+    text-decoration-line: none;
+    color:green;
+    vertical-align: -8px;
+    text-indent: 60px;
+}
+
+.contenedor{
+    position: relative;
+    
+    
+}
+.texto-encima{
+    color: white;
+    position:absolute;
+    top: 50%;
+    margin-right: 10%;
+    margin-left: 60%;
+}
+.botones{
+    margin-left: 25%;
+}
+
+.conoce{
+    color: rgb(73, 67, 67);
+    text-align: center;
+    size: 14px;
+}
+
+.xx{
+    text-align: center;
+}
+
+
+.card{
+    width: 250px;
+    height: 450px;
+    margin-right: 70%;
+    margin-left: 70%;
+    flex-direction: column;
+
+}
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+    }
+
+.containerCardUltima{
+background-color: grey;
+}
+
+.anotate{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.containerNombreApellido{
+    margin-left: 25%;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.footer{
+background:rgb(34, 34, 78);
+}
+
+.foot{
+color: white;
+text-decoration-line: none;
+display: flex;
+justify-content: center;
+
+}
+
+#navfoot{
+    margin-left: 5%;
+    margin-right: 5%;
+}
