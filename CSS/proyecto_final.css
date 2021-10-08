@@ -35,12 +35,14 @@ text-align: right;
     text-align: center;
 }
 
+.oradores{
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
 .card{
     width: 250px;
     height: 450px;
-    margin-right: 70%;
-    margin-left: 70%;
     flex-direction: column;
 
 }

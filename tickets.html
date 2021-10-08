@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <link rel="stylesheet" href="CSS/tickets.css">
+
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+
+ 
+     <title>Proyecto Final Codo a Codo</title>
+</head>
+<body>
+ <!--navbar-->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <h1 class="navbar-brand" href="#">
+        <img src="img/codoacodo2.png" alt="" width="90" height="66" class="d-inline-block align-text-centre"> Conferencia Buenos Aires
+      </h1>
+  <div class="navbarsup">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lugar y fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviertete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav_ultimo" href="#">Comprar tickets</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <!--fin de Navbar-->
+  </br>
+    </br>
+
+  <main class="mb-3">
+        <!--Cards-->
+        <div class="container_cards">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-1 rounded-3 shadow-sm" style="border-color: blue;">
+                        <div class="card-header py-3" style="background-color: blue;">
+                            <h4 class="my-0 fw-normal">Estudiante</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li style="font-size: large;">Tienen un descuento</li>
+                            </br>
+                            <li style="font-size: xx-larger; font-weight:900;">80%</li>
+                            </br>
+                            <li style="color: grey;">*presentar documentación</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">       
+                    <div class="card mb-1 rounded-3 shadow-sm" style="border-color: rgb(72, 161, 245);">
+                        <div class="card-header py-3" style="background-color: rgb(72, 161, 245);">
+                            <h4 class="my-0 fw-normal">Trainee</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li style="font-size: large;">Tienen un descuento</li>
+                            </br>
+                            <li style="font-size: xx-larger; font-weight:900;">50%</li>
+                            </br>
+                            <li style="color: grey;">*presentar documentación</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-1 rounded-3 shadow-sm" style="border-color: orange;">
+                        <div class="card-header py-3" style="background-color: orange;">
+                            <h4 class="my-0 fw-normal">Junior</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li style="font-size: large;">Tienen un descuento</li>
+                            </br>
+                            <li style="font-size: xx-larger; font-weight:900;">15%</li>
+                            </br>
+                            <li style="color: grey;">*presentar documentación</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Cards-->
+
+
+        <p class="display-10 text-center mb-1">Venta</p>
+        <H2 class="display-10 text-center mb-4">Valor de ticket $200</H2>
+
+
+        <!--Datos Personales/compra-->
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4 mb-3">
+                    <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                    <div class="invalid-feedback">
+                        Ingrese su nombre
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-3">
+                    <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+                    <div class="invalid-feedback">
+                        Ingrese su apellido
+                    </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-8 mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Correo">
+                    <div class="invalid-feedback">
+                        Por favor, ingrese un email valido.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-4 mb-3">
+                    <label for="cantidad" class="form-label">Cantidad</label>
+                    <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="cantidad" placeholder="Cantidad" required>
+                    <div class="invalid-feedback">
+                        Ingrese la cantidad
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 md-3">
+                    <label for="state" class="form-label">Categoria</label>
+                    <select class="form-select" id="state" required>
+                    <option>Estudiante</option>
+                    <option>Trainee</option>
+                    <option>Junior</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Elija una opción valida.
+                    </div>
+                </div>
+
+                <ul>
+                    <li class="box mb-3">
+                        <span style="vertical-align:-50%; margin-left: 2%; color: blue;">Total a pagar: $</span>
+                        <strong></strong>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+            <button class="btn btn-primary" style="width: 27%;" type="">Button</button>
+            <button class="btn btn-primary" style="width: 27%;" type="">Button</button>
+        </div>
+
+
+        <!--Fin Datos Personales/compra-->
+
+
+
+
+
+
+    </main>
+
+
+<!--inicio Footer--> 
+<div class="footer">
+    <nav id="navfoot" class="navbar">
+              <li class="nav-item">
+                <a class="foot" href="#">Preguntas</br>frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="foot" href="#">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="foot" href="#">Prensa</a>
+              </li>
+              <li class="nav-item">
+                <a class="foot" href="#">Conferencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="foot" href="#">Términos y </br> condiciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="foot" href="#">Privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="foot" href="#">Estudiantes</a>
+              </li> 
+    </nav>
+  </div>   
+  <!--Fin del footer-->
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
