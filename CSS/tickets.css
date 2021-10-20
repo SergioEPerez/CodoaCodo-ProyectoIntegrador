@@ -23,6 +23,12 @@
     margin-right: 17%;
     margin-left: 17%;
 }
+
+.precio{
+    vertical-align: -25%;
+    font-size: 35px;
+    margin-right: 60%;
+}
 .btn{
     border-color: rgb(23, 216, 120);
     background-color: rgb(23, 216, 120);
