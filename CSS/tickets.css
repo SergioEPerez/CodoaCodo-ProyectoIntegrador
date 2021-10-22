@@ -14,6 +14,17 @@
     padding-left: 20%;
 }
 
+.price{
+    border-style: solid;
+    border-radius:10px;
+    border-color: aqua;
+    background-color: aqua;
+    height: 60px;
+    width: 65%;
+    color: blue; 
+    font-size:xx-large;
+}
+
 .box{
     border-radius: 5px;
     background-color:skyblue;
@@ -24,11 +35,7 @@
     margin-left: 17%;
 }
 
-.precio{
-    vertical-align: -25%;
-    font-size: 35px;
-    margin-right: 60%;
-}
+
 .btn{
     border-color: rgb(23, 216, 120);
     background-color: rgb(23, 216, 120);
