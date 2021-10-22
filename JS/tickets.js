@@ -16,10 +16,16 @@ function myFunction() {
       case document.getElementById("trainee").value:
            precioFinal= this.cantidad.value * 200 * (1-0.5);
       break;
-  
+      default: alert("Debe ingresar la cantidad de entradas y seleccionar una categoria")  
     }
     document.getElementById("precio").innerHTML = parseInt (precioFinal);
   }
+
+
+
+  function myFunctionBorrar(){
+     document.getElementById("precio").innerHTML = (0);
+  } 
 
 
 
