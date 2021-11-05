@@ -1,7 +1,3 @@
-.navbarsup{
-text-align: right;
-}
-
 .nav_ultimo{
     text-decoration-line: none;
     color:green;
@@ -21,6 +17,14 @@ text-align: right;
     margin-right: 10%;
     margin-left: 60%;
 }
+
+@media only screen and (max-width: 640px) {
+    .texto-encima {
+                display:none;
+        
+    }
+}
+
 .botones{
     margin-left: 25%;
 }
@@ -86,3 +90,4 @@ justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
 }
+

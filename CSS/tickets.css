@@ -1,6 +1,3 @@
-.navbarsup{
-    text-align: right;
-    }
           
 .nav_ultimo{
     text-decoration-line: none;
@@ -19,10 +16,10 @@
     border-radius:10px;
     border-color: aqua;
     background-color: aqua;
-    height: 60px;
+    height: 65px;
     width: 65%;
     color: blue; 
-    font-size:xx-large;
+    font-size: 120%;
 }
 
 .box{
