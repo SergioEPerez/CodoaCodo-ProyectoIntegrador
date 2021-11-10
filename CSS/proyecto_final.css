@@ -82,7 +82,7 @@ background:rgb(34, 34, 78);
 .foot{
 color: white;
 text-decoration-line: none;
-display: flex;
+display:flex;
 justify-content: center;
 
 }
