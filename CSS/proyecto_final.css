@@ -18,7 +18,7 @@
     margin-left: 60%;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1024px) {
     .texto-encima {
                 display:none;
         
@@ -47,8 +47,7 @@
 .card{
     width: 250px;
     height: 450px;
-    flex-direction: column;
-
+    display: flex;
 }
 
 .card-img-top {
