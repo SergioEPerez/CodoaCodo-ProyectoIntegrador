@@ -7,10 +7,6 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/proyecto_final.css">
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
     <title>Document</title>
 </head>
 <body>
@@ -36,7 +32,7 @@
                       <a class="nav-link" href="lugaryfecha.html">Lugar y fecha</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Conviertete en orador</a>
+                      <a class="nav-link" href="inscripcion.html">Conviertete en orador</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav_ultimo" href="tickets.html">Comprar tickets</a>
@@ -47,43 +43,97 @@
           </nav>
         
           <!--fin de Navbar-->
-<main>
-    <div style="background-image: url(img/bgconftec.jpg);background-size:150%; background-repeat: no-repeat;">
-       <div style="padding: 20px;">
-                    <section>
-                                <h4 style="font-family:'Times New Roman', Times, serif"><b>Conferencia: </b> <i>Del lat. conferentia. f. Exposición oral ante un público sobre un determinado tema de carácter didáctico o doctrinal.</i> </h4>
-                    </section>
-                    
-            <br>
-            <br>
-            <br>
 
-                    <section style="width: 50%;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id mi nisl. Praesent ornare quam vel nibh maximus euismod. Phasellus nec maximus sapien. Nullam hendrerit, nunc sit amet tincidunt gravida, lacus erat cursus augue, eget porttitor est metus eu sapien. Praesent rutrum, dui in lobortis consectetur, magna dui fermentum risus, non placerat lectus sem ut nulla. Vestibulum elementum imperdiet libero, et gravida tortor vehicula sed. Maecenas nec eros eu ex blandit rhoncus. Nulla eleifend purus neque, in accumsan mi lacinia sed. Curabitur non dolor consequat, porta mi quis, pretium odio.
-                
-                        Fusce mattis metus at ante dapibus, vitae consectetur purus placerat. Etiam facilisis tincidunt velit sit amet malesuada. Fusce et mattis nibh. Nunc eros dui, finibus sed elit fringilla, placerat vulputate purus. Aliquam elementum ipsum eu ligula luctus, aliquam sodales nunc sollicitudin. Suspendisse vitae lobortis leo. Suspendisse imperdiet hendrerit augue sed pulvinar. In quis ante vel ante iaculis tempor ut eget lacus. Morbi nec diam vel ipsum fermentum aliquam condimentum vitae ante. Vivamus nec risus ante. Aenean semper purus vel bibendum pellentesque. Integer dapibus tincidunt massa, quis scelerisque leo interdum in. Donec at quam a est tempus gravida. Fusce imperdiet auctor nulla, vitae consectetur sem varius non. Donec molestie venenatis augue, nec molestie urna hendrerit nec. Maecenas consequat neque magna, eu convallis dui porttitor vitae.
-                    </section>
-                    <br>
-                    <br>
-                    <br>
-                    <section style="margin-left: 60%;">
-                        <h3>La Conferencia en vivo</h3>
-                        <iframe width=500px height=255px src="https://www.youtube.com/embed/6Af6b_wyiwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </section>
+<main style="padding: 70px;">
+
+<!--Formulario de inscripcion-->
+<h1>¿QUIERES SER ORADOR?</h1>
+<br>
+<H5>Si deseas disertar sobre alguno de los temas relacionados a la tecnología en la conferencia del año, dejanos tus datos y en caso de quedar seleccionado por el comité te contactaremos para darte más detalles. </H5>
+<br>
+<form class="row g-3">
+    
+        <div class="col-md-6">
+        Nombre/s <input type="text" class="form-control"  aria-label="First name">
         </div>
-    </div>
+        <div class="col-md-6">
+        Apellido <input type="text" class="form-control"  aria-label="Last name">
+        </div>
 
+        <div class="col-md-4">
+            <label for="#" class="form-label">Género</label>
+            <select  class="form-select">
+              <option selected></option>
+              <option>Femenino</option>
+              <option>Masculino</option>
+              <option>No binario</option>
+            </select>
+        </div>
   
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" >
+        </div>
+  
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincia</label>
+          <select id="inputState" class="form-select">
+            <option selected></option>
+            <option>Buenos Aires</option>
+            <option>Ente Ríos</option>
+            <option>Corrientes</option>
+            <option>Misiones</option>
+            <option>Chaco</option>
+            <option>Formosa</option>
+            <option>Santiago del Estero</option>
+            <option>Mendoza</option>
+            <option>San Luis</option>
+            <option>Córdoba</option>
+            <option>Formosa</option>
+            <option>Santa Fé</option>
+            <option>Jujuy</option>
+            <option>Catamarca</option>
+            <option>Tucumán</option>
+            <option>San Juan</option>
+            <option>La Rioja</option>
+            <option>Neuquen</option>
+            <option>Rio Negro</option>
+            <option>Chubut</option>
+            <option>Santa Cruz</option>
+            <option>Tierra del Fuego</option>        
+          </select>
+        </div>
+
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Localidad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Código Postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-12">
+            Título de la presentación <input type="text" class="form-control" aria-label="First name">
+            </div>
+
+        <div class="form-floating">
+            Describa brevemente el tema que desarrollará en caso de quedar seleccionado:
+            <textarea class="form-control" id="floatingTextarea" maxlength="1000" style="height: 250px;"></textarea>
+         
+        </div>
+</form>
+      
+
+
+
 
 
 </main>
-
-
-
-
-
-
-
  <!--inicio Footer-->
      
 <div class="footer">
